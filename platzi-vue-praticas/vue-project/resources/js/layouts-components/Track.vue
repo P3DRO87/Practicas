@@ -2,12 +2,21 @@
   <div class="container d-flex justify-content-center">
     <div class="col mb-4">
       <div class="card">
-        <img :src="track.album.images[0].url" class="card-img-top" alt="..." />
+        <img :src="track.album.images[0].url" class="card-img-top" alt="comming soon :u" />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p
-            class="card-text"
-          >This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5 class="card-title">{{track.name}}</h5>
+          <p>
+            <b>Artist:</b>
+            {{track.artists[0].name}}
+          </p>
+          <p class="card-text">
+            <b>Album:</b>
+            {{track.album.name}}
+          </p>
+          <p>
+            <b>Duration:</b>
+            {{track.duration_ms}}ms
+          </p>
         </div>
       </div>
     </div>
