@@ -1,2 +1,9 @@
 .test {
   background: #f2f2f2; }
+
+.track-hero-img {
+  max-width: 85% !important;
+  background: red; }
+  @media only screen and (max-width: 992px) {
+    .track-hero-img {
+      max-width: 60% !important; } }
