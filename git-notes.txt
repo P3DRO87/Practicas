@@ -1,5 +1,0 @@
-command list:
-
-git show: se usa para mostrar información sobre cualquier objeto git
-
-git 
